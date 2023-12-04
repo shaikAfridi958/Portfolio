@@ -1,0 +1,90 @@
+.portfolio{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:-3.5rem;
+    height:80hv;
+}
+
+.portfolio span:nth-of-type(1){
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left:27.5rem;
+    padding-bottom: 1.5rem;
+}
+.portfolio span:nth-of-type(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+    margin-left:29rem;
+    font-weight: bold;
+}
+.portfolio .swiper{
+    overflow: visible!important;
+    margin-top: 2rem;
+    /* width:10%; */
+}
+.newimg1{
+    margin-left:-2rem;
+    height:9.4rem;
+}
+.newimg2{
+    display: flex;
+    margin-left:-53.5rem;
+    height:9.4rem;
+}
+.newimg3{
+    display: flex;
+    margin-left:-105rem
+}
+.newimg4{
+    display: flex;
+    margin-left:-156.7rem;
+}
+.portfolio img{
+    width:17rem;
+    filter:drop-shadow(-12px 15px 13px rgba(0,0,0,0.25));
+    border-radius:19px;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .portfolio span:nth-of-type(2){
+        margin-top:5rem;
+        margin-left:5rem;
+        position: absolute;
+    }
+    .portfolio span:nth-of-type(1){
+        margin-top:4rem;
+        margin-left:4rem;
+        position: absolute;
+    }
+   
+    .swiper{
+        margin-top:100rem;
+        position: absolute;
+        
+    }
+    #swiper-slider{
+        margin-left:7rem;
+        margin-top:10rem;
+    }
+    .swiper-slider2{
+        margin-top:12rem;
+        margin-left:27rem;
+        position: absolute;
+    }
+    .swiper-slider3{
+        margin-top:24rem;
+        position: absolute;
+        margin-left: 43rem;
+        
+    }
+    .swiper-slider4{
+        margin-top:36rem;
+        margin-left:27rem;
+        position: absolute;
+    }
+    
+
+}

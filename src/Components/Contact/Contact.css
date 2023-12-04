@@ -1,0 +1,85 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height:50vh;
+    margin-top: -2rem;
+   
+}
+.contact-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex:1;
+    margin-left:-7rem;
+}
+.w-left{
+    margin-left:1rem;
+   
+}
+.intouch{
+    font-size:3rem ;
+    font-weight: 100;
+    margin-left:0rem;
+}
+.contactme{
+    color: orange;
+    font-size:3rem ;
+    font-weight: 100;
+}
+
+.contact-right>form{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    position:absolute;
+    align-items: center;
+    margin-left: -5.5rem;
+
+}
+.contact-right .user{
+    width: 20rem;
+    height:2rem;
+    padding:0.3rem;
+    outline:none;
+    border: 2px solid var(--orange);
+    border-radius: 8px;
+    font-size:16px;
+}
+
+textarea{
+    height: 4rem!important;
+}
+
+
+.contact-blur{
+    margin-top:154rem;
+    margin-left:2rem;
+}
+.contact-blur2{
+    margin-left:10rem;
+    margin-top:154rem;
+}
+
+.send-button{
+    margin-left:15rem;
+}
+.awesome{
+    margin-left:3rem;
+}
+
+@media only screen and (max-width: 600px){
+    .contact-form{
+        margin-top:7rem;
+        margin-left:-2rem ;
+
+    }
+    .contact-right{
+        margin-top:7.5rem;
+        margin-left:-11rem;
+    }
+    .formm>:nth-child(4){
+        margin-top:13rem;
+        margin-left:-2rem;
+    }
+
+}

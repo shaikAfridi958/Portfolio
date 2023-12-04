@@ -1,0 +1,62 @@
+.footer{
+}
+
+.footer>img{
+   height:400px;
+   width:110%;
+   margin-left:-3.4rem;
+   margin-top: -3rem;
+}
+.footer>p{
+    position: absolute;
+    margin-left: 25rem;
+    margin-top:5rem;
+    
+}
+
+.faicons-facebook{
+    margin-top:-9rem;
+    transform: scale(1.5);
+    position: absolute;
+    margin-left:28rem;
+    cursor: pointer;
+}
+
+.faicons-insta{
+    margin-top:-9rem;
+    transform: scale(1.5);
+    position: absolute;
+    margin-left:32rem;
+    cursor: pointer;
+}
+
+.faicons-github{
+    margin-top:-9rem;
+    position: absolute;
+    transform: scale(1.5);
+    margin-left:36rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .footer{
+        margin-top:5rem;
+        height:10rem;
+        width:27rem;
+    }
+    .footer>:nth-child(1){
+        margin-left:4rem;
+    }
+    .icons{
+        margin-left:-22rem;
+        margin-top:0rem;
+    }
+    .linkclass>:nth-child(1){
+        color:black
+    }
+    .faicons-facebook>:nth-child(1){
+        color:black;
+    }
+}

@@ -1,15 +1,44 @@
 {
-  "name": "myportfolio",
+  "name": "starter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@coreui/icons": "^3.0.1",
+    "@coreui/icons-react": "^2.2.1",
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@iconscout/react-unicons": "^1.1.6",
+    "@iconscout/react-unicons-monochrome": "^1.0.2",
+    "@mui/icons-material": "^5.14.7",
+    "@mui/material": "^5.14.7",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "autoprefixer": "^10.4.16",
+    "browserslist": "^4.22.1",
+    "cards": "^2.0.3",
+    "framer-motion": "^4.1.17",
+    "hamburger-react": "^2.5.0",
+    "init": "^0.1.2",
+    "media-query": "^1.0.0",
+    "node": "^20.7.0",
+    "pagination": "^0.4.6",
+    "react": "^17.0.2",
+    "react-cards": "^0.2.2",
+    "react-dom": "^17.0.2",
+    "react-hooks": "^1.0.1",
+    "react-icons": "^4.12.0",
+    "react-redux": "^8.1.2",
+    "react-scripts": "^5.0.0",
+    "react-scroll": "^1.8.9",
+    "react-test-renderer": "^18.2.0",
+    "rfs": "^10.0.0",
+    "sass": "^1.66.1",
+    "scss": "^0.2.4",
+    "swiper": "^10.3.1",
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,9 +59,14 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
+      "last 2 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

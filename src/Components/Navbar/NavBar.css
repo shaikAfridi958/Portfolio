@@ -1,0 +1,139 @@
+.nav-wrapper{
+    display:flex;
+    height:10vh;
+    margin-top:1rem;
+    justify-content: space-between;
+}
+.welcome{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-left{
+      margin-left:3rem;
+      margin-top:2.8rem;
+      position: absolute;
+    }
+    .welcome{
+      display: block;
+      position: absolute;
+      width:100%;
+      height:3rem;
+      margin-top:-1rem;
+      margin-left:1.3rem;
+    }
+    .welcome span{
+      font-size: 1.5rem;
+      transition: 0.5s ease-out;
+      color: rgb(255, 153, 0);
+      cursor: pointer;
+      transition: 0.5s ease-out;
+    }
+
+    .nav-right>:nth-child(1){
+        height:8rem;
+        width:8rem;
+        margin-top:10rem;
+        margin-left:18rem;
+       
+    }
+    
+    .nav-box1, .nav-box2, .nav-box3, .nav-box4, .nav-box5{
+        width:2rem;
+        height:2rem;
+    }
+    .nav-box1{
+        margin-left:2rem;
+        margin-top:-0.3rem;
+    }
+    .nav-box2{
+        margin-top:1.1rem;
+        margin-left:-3.5rem;
+    }
+    .nav-box3{
+        margin-top:2.5rem;
+        margin-left:-3.7rem;
+    }
+    .nav-box4{
+        margin-top:4rem;
+        margin-left:-2.5rem;
+    }
+    .nav-box5{
+        margin-top:5.4rem;
+        margin-left:-3.5rem;
+    }
+    .button{
+        margin-top:3.7rem;
+        position: absolute;
+    }
+
+  }
+
+
+.nav-left{
+    align-items:center;
+    flex:1;
+    gap:2rem;
+    display: flex;
+}
+
+.nav-name{
+    font-size:1.3rem;
+    font-weight:bold;
+}
+
+.nav-right{
+    align-items: center;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    font-weight: 400;
+    
+}
+.nav-list{
+    flex:10;
+    margin-right:2rem;
+    /* height:2.5rem; */
+    border-radius: 10px;
+    background-color: rgb(28, 139, 236);
+    
+}
+
+.nav-list>ul{
+    gap:1rem;
+    display: flex;
+    margin-right: 2rem;
+}
+.nav-right-listitems:hover{
+    cursor: pointer;
+    color:var(--orange);
+}
+
+   
+  .nav-list ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+  }
+   
+  .nav-list li {
+    font-size: 1rem;
+    margin: 0.5rem;
+  }
+   
+  .nav-right-listitems:hover {
+    cursor: pointer;
+    color: var(--orange);
+  } 
+
+.nav-ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 9;
+}
+
+#nav-li-id{
+    list-style-type: none;
+    font-size: 2rem;
+} 
