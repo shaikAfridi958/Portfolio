@@ -11,6 +11,7 @@ import Services from '../Services/Services';
 import Experience from '../Experience/Experience';
 import Portfolio from '../Portfolio/Portfolio';
 import Testimonials from '../Testimonials/Testimonials';
+import { colors } from '@mui/material';
 
 
 function NavBar() {
@@ -73,6 +74,7 @@ function NavBar() {
         </div>
         <div className="nav-left">
             <div className="nav-name">Afridi</div>
+            <p className='theme'>Theme Change</p>
             {/* <Toggle /> */}
         </div>
         <div className="nav-right">

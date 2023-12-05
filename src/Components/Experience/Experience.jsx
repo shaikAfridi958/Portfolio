@@ -10,13 +10,13 @@ function Experience() {
         <div className='experience'>
             <span id='vrline1' className="vline3"></span>
             <div className="achivement">
-                <span className="circle">8+</span><br />
+                <span className="circle">2+</span><br />
                 <span className='years'>Years</span><br />
                 <span className='downspann'>Experience</span>
             </div>
             <span className="vline1"></span>
             <div className="achivement">
-                <span className="circle">10+</span><br />
+                <span className="circle">3+</span><br />
                 <span>Completed</span><br />
                 <span className='downspan'>Projects</span>
             </div>
