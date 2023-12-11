@@ -38,6 +38,12 @@
     cursor: pointer;
 }
 
+#new-git{
+    transform: scale(0.5);
+    position:absolute;
+    margin-top:-10rem;
+}
+
 
 @media only screen and (max-width: 600px){
 

@@ -72,48 +72,23 @@ html {
   scroll-behavior: smooth;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   body {
     /* background-color: lightblue; */
   }
   .App>:nth-child(2){
     margin-top:-0.8rem;
     margin-left:4rem;
+    
   }
+  /* html{
+    width:57rem;
+  } */
 
 }
-
-/* @media (max-width:600px){
-  body{
-    background-color: aquamarine;
-  }
-} */
-
-    /* color: var(--black);     */
-
-
-
-
 
 
 html {
   scroll-behavior: smooth;
 }
-
-@media only screen and (max-width: 600px) {
-  body {
-    /* background-color: lightblue; */
-  }
-  .App>:nth-child(2){
-    margin-top:-0.8rem;
-    margin-left:4rem;
-  }
-
-}
-
-/* @media (max-width:600px){
-  body{
-    background-color: aquamarine;
-  }
-} */
 

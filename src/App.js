@@ -25,12 +25,12 @@ function App() {
     <ThemeContext.Provider value={{theme, toggleTheme}} >
       <div className="App" id={theme} >
         <NavBar />
-            <div className="toggle-insider" id='insider-div'>
-                <i className='famoon' onClick={toggleTheme}>
-                    <FaMoon />
-                    <FaCircle />
-                </i>
-            </div>
+        <div className="toggle-insider" id='insider-div'>
+            <i className='famoon' onClick={toggleTheme}>
+                <FaMoon />
+                <FaCircle />
+            </i>
+        </div>
         <Intro />
         <Services />
         <Works />

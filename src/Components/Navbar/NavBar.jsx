@@ -66,7 +66,7 @@ function NavBar() {
     const [isOpen, setOpen]=useState([false])
     
   return (
-    <div className='nav-wrapper'>
+    <div id='nav-wrapper' className='nav-wrapper'>
         <div className='welcome'>
             <h1 className='welcome-message'>
                 <span className='message'> Welcome To Afridi's Professional World</span>  
