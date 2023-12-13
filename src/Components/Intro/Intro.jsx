@@ -40,7 +40,7 @@ function Intro() {
             <div className="intro-icons">
                 <a href='https://www.instagram.com/shaik_afridi7?utm_source=qr&r=nametag'><img src={Instagram} alt='Instagram Image'/></a>
                 <a href='https://www.linkedin.com/in/shaik-madhire-afridi-4083b7214'><img src={Linkedin} alt='Linkedin Image' /></a>
-                <a href='https://github.com/shaikAfridi958'><img src={Github} alt='Github Image' /></a>
+                <a href='https://github.com/shaikAfridi958/Portfolio.git'><img src={Github} alt='Github Image' /></a>
                 
             </div>
             <div className="intro-right">

@@ -23,9 +23,8 @@ function Footer() {
                 <FaInstagram href='https://www.instagram.com/shaik_afridi7?utm_source=qr&r=nametag'/>
             </div>
             <div className="faicons-github">
-                <FaGithub  href='https://github.com/shaik958'/>
+                <FaGithub  href='https://github.com/shaikAfridi958/Portfolio.git'/>
             </div>
-            
         </div>
         
         
