@@ -33,7 +33,7 @@ function NavBar() {
         if(window.innerWidth==600){
             window.scrollBy(0,2130)
         }else{
-            window.scrollBy(0,715);
+            window.scrollBy(0,915);
         }
         
     }
