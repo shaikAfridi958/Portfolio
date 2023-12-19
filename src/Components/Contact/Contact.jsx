@@ -11,11 +11,12 @@ function Contact() {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_ipyy5b9', 'template_hxph87l', form.current, 'IbmN-NQj0SS1nb3xH')
+      emailjs.sendForm('service_zasgvmy', 'template_rbfn1sq', form.current, 'IbmN-NQj0SS1nb3xH')
         .then((result) => {
-            console.log(result.text);
-            console.log("sent successfully")
-            setDone=(true);
+            // console.log(result.text);
+            // console.log("sent successfully")
+            alert("Email sent successfully");
+
         }, (error) => {
             console.log(error.text);
         });
