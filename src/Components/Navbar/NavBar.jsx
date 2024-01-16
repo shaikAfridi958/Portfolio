@@ -24,7 +24,7 @@ function NavBar() {
             window.scrollBy(0,1258)
         }
         else{
-            window.scrollBy(0,810);
+            window.scrollBy(0,710);
         }      
         
         
