@@ -25,8 +25,8 @@ function Services() {
                     development, producting the quality work.
                 </span>
             </div>
-            <a href={dummy} download>
-            <button className='button services-button'>Download CV</button>
+            <a href={dummy} download className='downloadcv'>
+              <button className='button services-button'>Download CV</button>
             </a>
             
             <div className='background_blur services_blur'></div>
