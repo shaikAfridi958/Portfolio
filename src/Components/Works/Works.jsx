@@ -6,6 +6,8 @@ import Upwork from '../../img/Upwork.png';
 import Amazon from '../../img/amazon.png';
 import Fiverr from '../../img/fiverr.png'
 import {motion} from 'framer-motion';
+import resume from "./AFRIDI-Resume.pdf";
+// import dummy from './dummy.pdf';
 
 function Works() {
   return (
@@ -18,7 +20,12 @@ function Works() {
                     Minima accusamus eos voluptas fuga, ullam necessitatibus<br/>
                     Nesciunt eos architecto eius doloremque sint unde tempora cum<br/>
                 </spane>  
-                <button className='button services-button'>Download CV</button>
+
+                <a href={resume} download className='downloadcv'>
+                    <button className='button services-button'>Download CV</button>
+                </a>
+
+                {/* <button href={dummy} download className='button services-button'>Download CV</button> */}
                 <div id ='loading' className='loading'>
                     <span className='good'>Good days</span><br />
                     <span className='are'>are-----&gt;</span>

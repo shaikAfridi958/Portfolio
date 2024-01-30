@@ -62,7 +62,7 @@
     height:6rem;
     border-radius: 30%;
     /* leftrem; */
-    position: relative;
+    /* position: relative; */
     background-color:blue;
 }
 .vline1{
@@ -76,11 +76,11 @@
 .vline3{
     width:3px;
     height:9rem;
-    /* margin-left:-1rem; */
+    margin-left:-0.4rem;
 }
-#vrline1{
-   margin-left:0.2rem; 
-}
+/* #vrline1{
+    margin-left:0.2rem;  
+} */
 .hrline{
     margin-left:4.3rem;
     margin-top:9rem ;
